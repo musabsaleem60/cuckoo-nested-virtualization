@@ -1,0 +1,16 @@
+*.vdi
+*.vmdk
+*.iso
+*.log
+*.pyc
+__pycache__/
+cuckoo/storage/
+*.snap
+*.ova
+*.pcap
+*.vmem
+*.lck
+*.vbox*
+*.pid
+*.sock
+

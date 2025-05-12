@@ -1,0 +1,52 @@
+[cuckoo]
+version_check = yes
+ignore_vulnerabilities = no
+api_token = 2fiOTff9bYb6oi-nl-ndjw
+web_secret =
+delete_original = no
+delete_bin_copy = no
+machinery = virtualbox
+memory_dump = no
+terminate_processes = no
+reschedule = no
+process_results = yes
+max_analysis_count = 0
+max_machines_count = 0
+max_vmstartup_count = 10
+freespace = 1024
+tmppath =
+rooter = /tmp/cuckoo-rooter
+
+[feedback]
+enabled = no
+name =
+company =
+email =
+
+[resultserver]
+ip = 192.168.56.1
+port = 2042
+upload_max_size = 134217728
+
+[processing]
+analysis_size_limit = 134217728
+resolve_dns = yes
+sort_pcap = yes
+
+[database]
+connection =
+timeout = 60
+
+[timeouts]
+default = 120
+critical = 60
+vm_state = 60
+
+[remotecontrol]
+enabled = no
+guacd_host = localhost
+guacd_port = 4822
+
+[logging]
+logpath = /home/musab/.cuckoo/log
+
