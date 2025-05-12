@@ -9,6 +9,4 @@ This project contains configuration files and scripts to set up [Cuckoo Sandbox]
 - Pre-configured Cuckoo core and web UI startup scripts
 - Sample `.gitignore` to avoid uploading logs/VM files
 
-## 📁 Folder Structure
-
 
